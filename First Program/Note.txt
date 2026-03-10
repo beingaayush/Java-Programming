@@ -16,3 +16,21 @@ Note -
 (String[] args)  <- 'S' capital (String)
 
 system.out.println("Hello World");   <- 'S' capital (System)
+
+-------------------------------------------------------------
+
+public static void main(String args[])
+Why each keyword is required ?
+
+public
+JVM must be able to access the method from outside the class.
+
+static
+JVM calls main() without creating an object of the class.
+Without static, it would require an object.
+
+void
+main() does not return anything.
+
+String[] args
+Used to receive command line arguments.

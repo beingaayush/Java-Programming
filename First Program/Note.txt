@@ -1,0 +1,18 @@
+whatever is the file name, will be the class name
+write className with capital letter
+-------------------------------------------------
+
+for run:-
+Compile => javac className.java
+Run => java className
+
+oneLiner :-
+eg : file name = print.java | class name = print
+then Run cmd = javac Print.java ; java Print
+
+-------------------------------------------------
+
+Note - 
+(String[] args)  <- 'S' capital (String)
+
+system.out.println("Hello World");   <- 'S' capital (System)

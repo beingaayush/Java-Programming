@@ -1,0 +1,37 @@
+Variables in Java = a named memory location used to store data.
+
+Syntax
+dataType variableName = value;
+
+Example:
+int age = 21;
+
+int → datatype | age → variable name | 21 → stored value
+
+-----------------------------------------------------------------
+
+Common Java Data Types used with variables
+  
+  Type    | Example                   |
+| ------- | ------------------------- |
+| int     | int a = 5;              |
+| double  | double price = 10.5;    |
+| char    | char grade = 'A';       |
+| boolean | boolean isPass = true;  |
+| String  | String name = "Aayush"; |
+
+------------------------------------------------------------------
+
+Types of VARIABLES:-
+
+1. Local variable
+Declared inside a method / block / function.
+Scope: only inside that method.
+
+2. Instance variable
+Declared inside class but outside methods.
+Each object gets its own copy.
+
+3. Static variable
+Declared with static.
+Shared by all objects of the class.

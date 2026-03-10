@@ -1,0 +1,28 @@
+Java me input lene ka standard tarika Scanner class hai.
+
+# Step-by-step process
+
+Step 1 — Scanner import karo
+import java.util.Scanner;
+
+Step 2 — Scanner object banao
+Scanner sc = new Scanner(System.in);
+
+Step 3 — Input lo
+int a = sc.nextInt();
+
+Step 4 — Use karo
+System.out.println(a);
+
+----------------------------------------------------------
+
+Different Types of input :
+
+| Data type          | Method                |
+| ------------------ | --------------------- |
+| int                | sc.nextInt()          |
+| double             | sc.nextDouble()       |
+| float              | sc.nextFloat()        |
+| String (word)      | sc.next()             |
+| String (full line) | sc.nextLine()         |
+| char               | sc.next().charAt(0)   |

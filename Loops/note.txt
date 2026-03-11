@@ -1,0 +1,30 @@
+Java has also mainly 3 types of loops like other programming languages..
+
+1. for loop
+condition check before execution
+Syntax:
+
+for(initialization; condition; updation){
+    // code
+}
+
+2. while loop
+condition check before execution
+Syntax:
+
+initialization
+while(condition){
+    // code
+    updatation
+}
+
+3. do - while loop
+condition check after execution (runs at least once)
+Syntax:
+
+initialization
+do{
+    // code
+    updatation
+}
+while(condition);

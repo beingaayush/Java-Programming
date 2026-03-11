@@ -1,0 +1,63 @@
+Java has also mainly 4 types of conditional statements like other programming languages..
+
+1. if statement
+Concept:
+Agar condition true hai → code run hoga.
+False hai → skip this block of code
+
+Syntax:
+if(condition){
+    // code
+}
+
+.....................................
+
+2. if - else
+Concept:
+Agar condition true → first block run
+Agar false → else block run
+
+Syntax:
+if(condition){
+    // code
+}
+else{
+    // code
+}
+
+.....................................
+
+3. else if ladder
+Concept:- Multiple conditions check karne ke liye.
+
+Syntax:
+if(condition1){
+}
+else if(condition2){
+}
+else if(condition3){
+}
+else{
+}
+
+......................................
+
+4. switch statement
+concept:- Multiple fixed values ke cases check karne ke liye.
+Logic:
+variable value match hoti hai case ke saath
+break lagana important hai warna next cases bhi run ho jayenge.
+
+Syntax:
+switch(variable){
+    case value1:
+        // code
+        break;
+
+    case value2:
+        // code
+        break;
+
+    default:
+        // code
+}

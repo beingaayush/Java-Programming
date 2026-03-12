@@ -1,0 +1,26 @@
+What is StringBuilder?
+Problem first:
+
+String in Java is immutable → once created, it cannot be modified.
+Example:
+String s = "Hello";
+s = s + " World";
+
+Here Java actually creates a new object every time.
+If you modify strings many times → memory waste + slower program.
+
+Solution → StringBuilder
+StringBuilder is a mutable string class (string can be modified).
+
+------------------------------------------------------------------------
+
+                   String Vs StringBuilder
+
+| Feature     | String                        | StringBuilder |
+| ----------- | ----------------------------- | ------------- |
+| Mutable     | ❌ No                         | ✅ Yes       |
+| Memory      | Inefficient if modified often | Efficient     |
+| Speed       | Slower                        | Faster        |
+| Thread safe | Yes                           | No            |
+
+-----------------------------------------------------------------------

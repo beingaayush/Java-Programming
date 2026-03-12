@@ -34,7 +34,7 @@ String s = new String("Hello");
 
 ----------------------------------------------------------------------------------
 
-In java Strings arre immutable, means once created, cannot be changed
+In java Strings arre immutable, means once created, cannot be changed  (SOLUTION => StringBuilder)
 Example :-
 String s = "Hello";
 s.concat(" World");

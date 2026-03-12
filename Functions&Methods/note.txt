@@ -1,0 +1,7 @@
+Java me function ko actually method bola jata hai.
+Purpose simple hai: code ko reusable banana — ek kaam baar-baar likhne ke bajaye ek jagah define karo aur
+ jab chaho call karo.
+
+
+function will be always define on above the main function.
+when defining a function/method use "static" keyword:- static void sum(parameters){..}

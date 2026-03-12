@@ -41,3 +41,7 @@ OTHERS:-
 
 4. for each loop
 -> Purpose: Array ya collection ke elements iterate karne ke liye.
+Syntax:
+for(type variable : array){
+    // code
+}

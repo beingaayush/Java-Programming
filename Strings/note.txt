@@ -1,0 +1,47 @@
+1. What is a String?
+String = sequence of characters
+
+Example:
+"Hello", "Aayush", "Java123"
+
+In Java, String is not a primitive type.
+It is a class from java.lang package.
+
+   String name = "Aayush";
+
+-----------------------------------------
+
+    Important String Functions
+
+|    Function      |     Use           |
+| ---------------  | ---------------   |
+| .length()        | string length     |
+| .charAt(i)       | get character     |
+| .substring()     | extract part      |
+| .equals()        | compare strings   |
+| .toUpperCase()   | uppercase         |
+| .toLowerCase()   | lowercase         |
+| .trim()          | remove spaces     |
+
+-------------------------------------------
+
+#  Ways to Create a String:-
+(1) Using String Literal (Most Common) | Stored in String Pool (memory optimized).
+String s = "Hello";
+
+(2) Using new Keyword | Creates a new object in heap memory.
+String s = new String("Hello");
+
+----------------------------------------------------------------------------------
+
+In java Strings arre immutable, means once created, cannot be changed
+Example :-
+String s = "Hello";
+s.concat(" World");
+
+Output - Original string remains
+Hello
+
+In C++ strings are muttable !
+
+------------------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX

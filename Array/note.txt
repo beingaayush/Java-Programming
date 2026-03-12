@@ -1,0 +1,46 @@
+Array => An array is a fundamental, linear data structure that stores a collection of elements (usually of the same data type)
+ in contiguous memory locations.
+ Each element is accessed directly via a numerical index, typically starting at 0
+
+---------------------------------------------------------------------------------
+
+# array declaration / initialaization
+
+method 1:
+int arr[] = new int[5];
+
+method 2 (direct initialaization):
+int arr[] = {1, 2, 3, 4, 5};
+
+--------------------------------------
+
+# array length
+
+C++ : arr.size();
+java : arr.length;
+
+arr.length -> Java me array size nikalne ka built-in property hai.
+
+-------------------------------------------------------------------
+
+Important Points:
+
+Array same datatype store karta hai.
+
+Fixed size hota hai (resize nahi hota).
+
+Indexing 0 se start hoti hai.
+
+.length se size milta hai.
+
+------------------------------------------
+
+C++ vs Java Mental Difference (Important)
+
+C++ :
+int arr[5];
+
+Java :
+int[] arr = new int[5];
+
+Java me array object hota hai (heap memory).

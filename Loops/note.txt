@@ -31,6 +31,13 @@ while(condition);
 
 OTHERS:-
 1. Nested loop
+-> Ek loop ke andar dusra loop
+
 2. Break
+-> break → loop ko turant stop kar deta hai.
+
 3. Continue
+-> continue → current iteration skip karta hai aur next iteration pe chala jata hai.
+
 4. for each loop
+-> Purpose: Array ya collection ke elements iterate karne ke liye.

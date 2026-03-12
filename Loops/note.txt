@@ -28,3 +28,9 @@ do{
     updatation
 }
 while(condition);
+
+OTHERS:-
+1. Nested loop
+2. Break
+3. Continue
+4. for each loop

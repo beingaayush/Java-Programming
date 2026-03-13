@@ -3,6 +3,7 @@ Contents:-
 > Constructor
 > this
 > Access Modifiers
+> Inheritance
 > Polymorphism
 
 --------------------------

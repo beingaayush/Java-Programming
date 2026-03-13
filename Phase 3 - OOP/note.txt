@@ -1,0 +1,48 @@
+Contents:-
+> Class & Object
+> Constructor
+> this
+> Inheritance
+> Polymorphism
+> Abstraction
+> Interface
+> Encapsulation
+> static / final
+
+--------------------------
+
+Since we have already covered entire OOPs with notes in C++ also pushed on github, 
+here only java core overview.
+Now the cocept of OOPs is same as we've learnt OOPs in C++ but the implementation in java is different
+
+BreakDown:-
+| Concept              | C++                  | Java me difference                        |
+| -------------------- | -------------------- | ----------------------------------------- |
+| Inheritance          | `class B : public A` | `class B extends A`                       |
+| Multiple inheritance | allowed              | **allowed nahi** (interfaces se hota hai) |
+| Destructor           | hota hai             | **nahi hota** (Garbage Collector)         |
+| Access default       | `private`            | **package-private**                       |
+| Object creation      | stack + heap         | **mostly heap**                           |
+| Memory mgmt          | manual               | **automatic (GC)**                        |
+
+------------------------------------------------------------------------------------------------------------
+
+what is same / diff in C++ & java ?
+
+Same in both:-
+Class
+Object
+Inheritance
+Polymorphism
+Encapsulation
+Abstraction
+
+Different, in Java:-
+No multiple inheritance (use interface)
+No destructor
+No pointer
+Automatic memory management
+extends keyword
+new required for objects
+
+----------------------------------------------

@@ -1,73 +1,63 @@
-Access Level:
-| Modifier  | Same Class | Same Package | Subclass | Other Package  |
-| --------- | ---------- | ------------ | -------- | -------------  |
-| public    | ✔          | ✔            | ✔        | ✔            |
-| protected | ✔          | ✔            | ✔        | ✖            |
-| default   | ✔          | ✔            | ✖        | ✖            |
-| private   | ✔          | ✖            | ✖        | ✖            |
-----------------------------------------------------------------------
+// Access Level:
+// | Modifier  | Same Class | Same Package | Subclass | Other Package  |
+// | --------- | ---------- | ------------ | -------- | -------------  |
+// | public    | ✔          | ✔            | ✔        | ✔            |
+// | protected | ✔          | ✔            | ✔        | ✖            |
+// | default   | ✔          | ✔            | ✖        | ✖            |
+// | private   | ✔          | ✖            | ✖        | ✖            |
+// ----------------------------------------------------------------------
 
-class AccessDemo {
-    public int a = 10;
-    private int b = 20;
-    protected int c = 30;
-    int d = 40;   // default
+class BankAccount {
 
-    public void showPublic() {
-        System.out.println("Public method");
+    public String bankName = "State Bank";   // public
+    private double balance = 5000;           // private
+    protected String accountType = "Saving"; // protected
+    int accountNumber = 12345;               // default
+
+    // public method
+    public void deposit(double amount){
+        balance += amount;
+        System.out.println("Deposited: " + amount);
     }
 
-    private void showPrivate() {
-        System.out.println("Private method");
+    // private method
+    private void showBalance(){
+        System.out.println("Balance: " + balance);
     }
 
-    protected void showProtected() {
-        System.out.println("Protected method");
+    // protected method
+    protected void showAccountType(){
+        System.out.println("Account Type: " + accountType);
     }
 
-    void showDefault() {
-        System.out.println("Default method");
+    // default method
+    void showAccountNumber(){
+        System.out.println("Account Number: " + accountNumber);
     }
 
-    void accessInsideSameClass() {
-        System.out.println("Inside same class:");
-        System.out.println(a); // public
-        System.out.println(b); // private
-        System.out.println(c); // protected
-        System.out.println(d); // default
-
-        showPublic();
-        showPrivate();
-        showProtected();
-        showDefault();
-    }
-}
-
-class TestAccess {
-    void accessFromSamePackage() {
-        AccessDemo obj = new AccessDemo();
-
-        System.out.println("From another class in same package:");
-        System.out.println(obj.a); // public
-        // System.out.println(obj.b); // private -> not accessible
-        System.out.println(obj.c); // protected
-        System.out.println(obj.d); // default
-
-        obj.showPublic();
-        // obj.showPrivate(); // private -> not accessible
-        obj.showProtected();
-        obj.showDefault();
+    // method to access private method inside class
+    public void checkBalance(){
+        showBalance();
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        AccessDemo obj1 = new AccessDemo();
-        obj1.accessInsideSameClass();
 
-        System.out.println();
+        BankAccount acc = new BankAccount();
 
-        TestAccess obj2 = new TestAccess();
-        obj2.accessFromSamePackage();
+        System.out.println(acc.bankName);       // public
+        System.out.println(acc.accountType);    // protected
+        System.out.println(acc.accountNumber);  // default
+
+        acc.deposit(2000);
+
+        acc.showAccountType();
+        acc.showAccountNumber();
+
+        acc.checkBalance();   // calling private method indirectly
+
+        // acc.balance ❌ not accessible (private)
+        // acc.showBalance() ❌ not accessible (private)
     }
 }

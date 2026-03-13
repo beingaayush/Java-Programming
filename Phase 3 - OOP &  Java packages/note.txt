@@ -5,6 +5,7 @@ Contents:-
 > Access Modifiers
 > Inheritance
 > Polymorphism
+> Encapsulation
 
 --------------------------
 

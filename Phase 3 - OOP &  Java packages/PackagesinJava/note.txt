@@ -1,0 +1,51 @@
+Packages in Java
+Package = related classes ka group / folder.
+
+Purpose:
+code organize karna | name conflicts avoid karna | access control manage karna
+
+Simple words:
+package = folder of classes
+--------------------------------------------------------------------------------------------------------
+
+Package Types
+1️⃣ Built-in packages - Java already provide karta hai.
+Example:
+
+import java.util.Scanner;
+import java.lang.Math;
+
+2️⃣ User-defined packages - Jo tum khud create karte ho.
+
+----------------------------------------------------------------------------------------------------------
+
+Self-Created Package:- hum khud bhi package create kar sakte hai.
+
+Step 1 — Package declare karo
+Make a file and File ke top pe likhte hain.
+
+package packageName;
+
+public class Car {
+
+    public void start(){
+        System.out.println("Car started");
+    }
+
+}
+
+Step 2 — Use in another class
+import packageName.Car;
+
+public class Main {
+
+    public static void main(String[] args){
+
+        Car c = new Car();
+        c.start();
+
+    }
+
+}
+
+

@@ -2,12 +2,7 @@ Contents:-
 > Class & Object
 > Constructor
 > this
-> Inheritance
-> Polymorphism
-> Abstraction
-> Interface
 > Encapsulation
-> static / final
 
 --------------------------
 

@@ -9,7 +9,7 @@
 // Child class parent ke public / protected members use kar sakti hai.
 // Private members inherit nahi hote.
 
-
+//Single inheritance
 
 class Animal {
 
@@ -40,7 +40,7 @@ public class Inheritance {
 
 -------------------------------------------------------------------------------------------------------
 
-//Multilevel Inheritance
+//Multilevel Inheritance : Base -> Derived -> Derived
 
 class A {
     void showA(){
@@ -57,5 +57,27 @@ class B extends A {
 class C extends B {
     void showC(){
         System.out.println("Class C");
+    }
+}
+
+--------------------------------------------------------------------------------------------------------
+
+//Hieracrhical Inheritance :  Derivded <- Base -> Derived
+
+class Car{
+    void Start(){
+        System.out.println("Car Started");
+    }
+}
+
+class Mercedese extends Car {
+    void luxury(){
+        System.out.println("Mercedes is a luxury car brand");
+    }
+}
+
+class toyota extends Car {
+    void midLux(){
+        System.out.println("Toyota is mid segment car brand");
     }
 }

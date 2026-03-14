@@ -22,9 +22,18 @@ Abstract class VS Interface
 
 
 
-//Abstract Class
-abstract class Animal {
+//Abstract Class :-
+// rules:
+// Object create nahi kar sakte
+// Abstract method me body nahi hoti
+// Child class ko abstract methods implement karne padte hain
+// Normal (non-abstract) methods allowed
+// Variables allowed
+// Constructor allowed
+// Abstract + non-abstract methods dono ho sakte hain
 
+abstract class Animal {
+    //normal method allowed here
     void eat() {
         System.out.println("Animal eats food");
     }

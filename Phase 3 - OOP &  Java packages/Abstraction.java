@@ -11,15 +11,15 @@
 // 2. Interface
 
 
-Abstract class VS Interface
-| Feature              | Abstract Class    | Interface           |
-| -------------------- | ----------------- | ------------------- |
-| Methods              | abstract + normal | mostly abstract     |
-| Variables            | normal            | public static final |
-| Inheritance          | `extends`         | `implements`        |
-| Multiple inheritance | no                | yes                 |
------------------------------------------------------------------------------------------------------
+// Abstract class VS Interface
+// | Feature              | Abstract Class    | Interface           |
+// | -------------------- | ----------------- | ------------------- |
+// | Methods              | abstract + normal | mostly abstract     |
+// | Variables            | normal            | public static final |
+// | Inheritance          | `extends`         | `implements`        |
+// | Multiple inheritance | no                | yes                 |
 
+// -----------------------------------------------------------------------------------------------------
 
 
 //Abstract Class :-

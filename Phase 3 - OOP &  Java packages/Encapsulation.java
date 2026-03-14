@@ -2,7 +2,7 @@
 // Encapsulation = data ko hide karna + controlled access dena.
 
 // Iska basic rule:
-// variables → private
+// Private → variables
 // access → public methods (getter / setter)
 
 class Car {

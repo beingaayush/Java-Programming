@@ -1,17 +1,12 @@
 // Abstraction in Java :-
 // Abstraction = unnecessary details hide karna aur sirf important functionality dikhana.
-// Real meaning:
-// WHAT the object does not HOW it does it
 // Example real world:- ATM machine
-// Tum withdraw() use karte ho,
-// lekin andar bank server kaise kaam kar raha hai wo nahi dekhte.
+// Tum withdraw() use karte ho, lekin andar bank server kaise kaam kar raha hai wo nahi dekhte.
 -----------------------------------------------------------------------
-// Abstraction in Java - Java me abstraction 2 ways se achieve hoti hai
-// 1. Abstract class
-// 2. Interface
+// Abstraction in Java - achieved through 2 ways
+// 1. Abstract class   - NOT REAL ABSTRACTION
+// 2. Interface        - REAL / PURE ABSTRACTION
 
-
-// Abstract class VS Interface
 // | Feature              | Abstract Class    | Interface           |
 // | -------------------- | ----------------- | ------------------- |
 // | Methods              | abstract + normal | mostly abstract     |
@@ -19,11 +14,12 @@
 // | Inheritance          | `extends`         | `implements`        |
 // | Multiple inheritance | no                | yes                 |
 
-// -----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------
 
+// Abstract Class :-   NOT REAL ABSTRACTION
 
-//Abstract Class :-
 // rules:
+// must be declared with Abstarct keyword
 // Object create nahi kar sakte
 // Abstract method me body nahi hoti
 // Child class ko abstract methods implement karne padte hain
@@ -33,7 +29,7 @@
 // Abstract + non-abstract methods dono ho sakte hain
 
 abstract class Animal {
-    //normal method allowed here
+    //normal method allowed here, user can also access it, NOT pure abstraction
     void eat() {
         System.out.println("Animal eats food");
     }

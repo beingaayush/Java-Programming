@@ -1,16 +1,15 @@
-// Abstraction in Java - Java me abstraction 2 ways se achieve hoti hai
-// 1. Abstract class
-// 2. Interface
+// Abstraction in Java - achieved through 2 ways
+// 1. Abstract class   - NOT REAL ABSTRACTION
+// 2. Interface        - REAL / PURE ABSTRACTION
 
-
-// Abstract class VS Interface
 // | Feature              | Abstract Class    | Interface           |
 // | -------------------- | ----------------- | ------------------- |
 // | Methods              | abstract + normal | mostly abstract     |
 // | Variables            | normal            | public static final |
 // | Inheritance          | `extends`         | `implements`        |
 // | Multiple inheritance | no                | yes                 |
-// -----------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
 
 // Interface :- Interface = pure abstraction.
 // Matlab: sirf method declaration implementation nahi

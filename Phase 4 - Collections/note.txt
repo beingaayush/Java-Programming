@@ -1,0 +1,47 @@
+| Java Collections | C++ STL equivalent |
+| ---------------- | ------------------ |
+| ArrayList        | vector             |
+| LinkedList       | list               |
+| HashSet          | unordered_set      |
+| TreeSet          | set                |
+| HashMap          | unordered_map      |
+| TreeMap          | map                |
+| PriorityQueue    | priority_queue     |
+| Deque            | deque              |
+-----------------------------------------
+
+1. What is Java Collection Framework (JCF)
+Definition:
+Java Collection Framework is a set of interfaces, classes, and
+algorithms used to store and manipulate groups of objects dynamically.
+Simple words:- It gives ready-made data structures like lists, sets, queues, maps
+so you don’t implement them manually.
+---------------------------------------------------------------------------------
+
+2. Collection Framework Hierarchy
+Iterable
+   ↓
+Collection
+ ┌───────┬────────┬────────┐
+ List     Set      Queue
+  ↓        ↓        ↓
+ArrayList HashSet  PriorityQueue
+LinkedList TreeSet ArrayDeque
+Vector    LinkedHashSet
+
+
+Iterable → things you can loop over
+
+Collection → group of objects
+Collection is the main interface of the framework.
+It defines basic operations for storing elements.
+Common methods:
+add()
+remove()
+size()
+isEmpty()
+contains()
+clear()
+
+List / Set / Queue → different types of collections
+-------------------------------------------------------------------------------------

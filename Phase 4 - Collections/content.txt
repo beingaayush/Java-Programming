@@ -1,8 +1,1 @@
-Collection Framework overview
-List → ArrayList → LinkedList → Vector → Stack
-Set → HashSet → LinkedHashSet → TreeSet
-Queue → PriorityQueue → Deque → ArrayDeque
-Map → HashMap → LinkedHashMap → TreeMap → Hashtable
-Iterator / ListIterator
-Comparable / Comparator
-Collections class utilities
+List Interface

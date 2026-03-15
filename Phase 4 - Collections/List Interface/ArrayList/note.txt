@@ -1,0 +1,14 @@
+ArrayList = dynamic array.
+
+Meaning:
+> size grows automatically
+
+> elements have index
+
+> order is maintained
+
+> duplicates allowed
+
+Example structure:
+[10, 20, 30, 40]
+ 0   1   2   3

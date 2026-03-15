@@ -1,0 +1,16 @@
+List is a collection where:
+> order is maintained
+> duplicates are allowed
+> index exists
+
+Example idea: [10, 20, 20, 30]
+here :
+order preserved | duplicate 20 allowed | index present (0,1,2,3)
+
+Main Classes of List -
+Three main implementations:
+ArrayList
+LinkedList
+Vector (legacy)
+-----------------------------------------------------------------
+

@@ -1,0 +1,5 @@
+Stack = LIFO | Last in First out
+
+> push(val)   | add elments in the stack
+> pop()       | remove last added element
+> peek()      | view/access top element of the stack

@@ -11,6 +11,7 @@ Main Classes of List -
 Three main implementations:
 ArrayList
 LinkedList
+Stack
 Vector (legacy)
 -----------------------------------------------------------------
 

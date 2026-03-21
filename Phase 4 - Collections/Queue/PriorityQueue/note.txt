@@ -5,3 +5,10 @@ Default: Min Heap
 Matlab: smallest element sabse pehle niklega
 Order insertion pe nahi, priority pe depend karta hai
 
+----------------------------------------------------
+
+
+🔥 Max Heap kaise banate hain
+PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+
+Ab:-  largest element pehle niklega

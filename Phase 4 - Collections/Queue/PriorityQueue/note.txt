@@ -1,0 +1,7 @@
+PriorityQueue ≠ FIFO
+
+🔑 Core concept:
+Default: Min Heap
+Matlab: smallest element sabse pehle niklega
+Order insertion pe nahi, priority pe depend karta hai
+
